@@ -15,7 +15,7 @@ public class MineSweeper {
         mineMapFarm(mineMap);
         mineMapFarm(mineFarm);
         mineMapCreate(mineMap);
-        printMap(mineMap);
+        printMap(mineFarm);
         while (this.isWin) {
             isMineControl(mineMap);
             this.isWin = isWin(mineMap, mineFarm, this.x, this.y);
